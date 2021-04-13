@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">VasistartApp</string>
+    <string name="app_name">VasiStart</string>
+    <string name="pair">Pair Vehicle</string>
+    <string name="myvehicle">My Vehicle</string>
+    <string name="pairanother">Pair Another Vehicle</string>
+    <string name="name">Name Your Vehicle :)</string>
+    <string name="hint">"Vasista's Car"</string>
 </resources>
