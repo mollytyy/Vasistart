@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VasistartApp">
+        <activity android:name=".myvehicles"></activity>
+        <activity android:name=".start" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Name" />
+        <activity android:name=".Welcome" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

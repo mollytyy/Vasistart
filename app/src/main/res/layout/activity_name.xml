@@ -7,41 +7,45 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/purple_back"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/myvehicle"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="45dp"
+            android:text="Name Your Vehicle :)"
+            android:layout_marginTop="240dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_gravity="left"
             android:paddingHorizontal="20dp"
-            android:textColor="@color/purple_dark"
-            android:fontFamily="@font/DroidSansBold"
-            android:textSize="40sp"
-            android:layout_marginStart="45dp">
+            android:textSize="40sp">
         </TextView>
 
-        <ListView
-            android:layout_width="wrap_content"
-            android:layout_height="500dp"
+        <EditText
+            android:id="@+id/plain_text_input"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
             android:layout_marginHorizontal="60dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/my_vehicle_background_rectangle"
-            >
-        </ListView>
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="20dp"
+            android:hint="@string/hint"
+            android:textColorHint="@color/purple_dark"
+            android:inputType="text"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="70dp"
-            android:layout_marginHorizontal="60dp"
-            android:backgroundTint="@color/purple_dark"
+            android:layout_marginHorizontal="75dp"
+            android:paddingVertical="15dp"
             android:textAllCaps="false"
-            android:textSize="16sp"
-            android:text="@string/pairanother">
+            android:textSize="26sp"
+            android:text="Name">
         </Button>
+
+
+
     </LinearLayout>
 </FrameLayout>

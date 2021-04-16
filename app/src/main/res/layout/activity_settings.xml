@@ -7,33 +7,50 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/purple_back"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/name"
-            android:layout_marginTop="240dp"
-            android:layout_marginHorizontal="40dp"
+            android:text="Settings"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="45dp"
             android:layout_gravity="left"
-            android:paddingHorizontal="20dp"
-            android:textColor="@color/purple_dark"
-            android:fontFamily="@font/DroidSansBold"
-            android:textSize="40sp">
+            android:textSize="45sp">
         </TextView>
 
-        <EditText
-            android:id="@+id/plain_text_input"
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Default"
+            android:textSize="30sp"
+            android:layout_marginLeft="75dp">
+        </TextView>
+
+
+        <Spinner
+
             android:layout_width="match_parent"
-            android:layout_marginHorizontal="60dp"
-            android:layout_marginTop="20dp"
-            android:paddingHorizontal="20dp"
-            android:paddingVertical="20dp"
-            android:hint="@string/hint"
-            android:textColorHint="@color/purple_dark"
-            android:inputType="text"/>
+            android:layout_height="wrap_content" >
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:textSize="30sp"
+            android:layout_marginLeft="75dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report a Problem"
+            android:textSize="30sp"
+            android:layout_marginLeft="75dp">
+        </TextView>
+
 
         <Button
             android:layout_width="match_parent"
@@ -43,10 +60,9 @@
             android:layout_marginBottom="70dp"
             android:layout_marginHorizontal="75dp"
             android:paddingVertical="15dp"
-            android:backgroundTint="@color/purple_dark"
             android:textAllCaps="false"
             android:textSize="26sp"
-            android:text="Name">
+            android:text="Pair">
         </Button>
 
 
