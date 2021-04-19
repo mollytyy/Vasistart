@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VasistartApp">
         <activity android:name=".default_vehicle"></activity>
-        <activity android:name=".myvehicle" />
+        <activity android:name=".my_vehicle" />
         <activity android:name=".start" />
-        <activity android:name=".Settings" />
-        <activity android:name=".Name" />
-        <activity android:name=".Welcome">
+        <activity android:name=".settings" />
+        <activity android:name=".name" />
+        <activity android:name=".welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

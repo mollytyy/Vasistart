@@ -30,7 +30,13 @@
 
 
         <Spinner
+            android:id="@+id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </Spinner>
 
+        <Spinner
+            android:id="@+id/units"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
         </Spinner>
@@ -43,6 +49,62 @@
             android:layout_marginLeft="75dp">
         </TextView>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:text="Notify when the vehicle location changes."
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="10dp">
+            </TextView>
+
+            <Switch
+                android:id="@+id/notfication1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:scaleX="2"
+                android:scaleY="2" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:text="Notify when the vehicle is left unlocked for more than 3 minutes"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="10dp">
+            </TextView>
+
+            <Switch
+                android:id="@+id/notfication2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:scaleX="2"
+                android:scaleY="2" />
+
+        </LinearLayout>
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,6 +112,20 @@
             android:textSize="30sp"
             android:layout_marginLeft="75dp">
         </TextView>
+
+        <EditText
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:minLines="3"
+            android:gravity="center"
+            android:maxLines="10"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="80dp"
+            android:scrollbars="vertical">
+        </EditText>
+
+
 
 
 

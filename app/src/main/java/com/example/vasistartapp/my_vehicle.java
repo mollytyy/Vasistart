@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class myvehicle extends AppCompatActivity {
+public class my_vehicle extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_myvehicle);
+        setContentView(R.layout.activity_my_vehicle);
 
         Button pair_another = (Button) findViewById(R.id.pair_another);
         Button set_default = (Button) findViewById(R.id.set_default);
